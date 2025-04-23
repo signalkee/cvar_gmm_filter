@@ -32,8 +32,8 @@ class DistributionallyRobustCVaR:
             sigma = np.sqrt(cov[0, 0])
             cvar = self.calculate_cvar(mu, sigma, alpha)
             cvar_values.append(cvar)
-        dr_cvar = np.min(cvar_values)
-        dr_cvar_index = np.argmin(cvar_values)
+        dr_cvar = np.max(cvar_values)
+        dr_cvar_index = np.argmax(cvar_values)
         return dr_cvar, cvar_values, dr_cvar_index
 
     def is_within_boundary(self, boundary, alpha=0.95):
