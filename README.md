@@ -87,8 +87,10 @@ pip install -r requirements.txt
 ### GMM Plot
 ![GMM Plot](image/gmm_plot.png)
 
-### GMM with DR-CVaR Boundaries
+### GMM with DR-CVaR Boundaries example 1
 ![GMM with CVaR Boundaries example 1](image/gmm_cvar_plot.png)
+
+### GMM with DR-CVaR Boundaries example 2
 ![GMM with CVaR Boundaries example 2](image/gmm_cvar.png)
 
 
